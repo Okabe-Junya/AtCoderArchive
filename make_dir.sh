@@ -5,13 +5,16 @@ then
     echo "Usage: $0 <dir_name> <start> <end>"
     exit 1
 fi
+
 cd $1
 start=$2
 end=$3
 while [ $start -le $end ]
 do
+    # 0埋め
     tmp="000${start}"
     dir_name="${tmp: -3}"
+
     mkdir $dir_name
     cd $dir_name
     for var in a b c d e f
