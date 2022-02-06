@@ -9,6 +9,11 @@ fi
 cd $1
 start=$2
 end=$3
+if [ $start -gt $end ]
+then
+    echo "<start> must be less than <end>"
+    exit 1
+fi
 while [ $start -le $end ]
 do
     # 0埋め
