@@ -14,7 +14,7 @@
 
 ## Abstract
 
- [AtCoder](https://atcoder.jp/home) のアーカイブ．解いた問題の解答を保存する．（全て `AC` したもの）
+ [AtCoder](https://atcoder.jp/home) のアーカイブ．解いた問題の解答を保存する．使用言語はpython（いくつかはC++）．
 
 ## Other
 
