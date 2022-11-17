@@ -1,0 +1,6 @@
+N, C = input().split()
+N = int(N)
+A = input()
+A = A.replace("W", "0").replace("R", "1").replace("B", "2")
+C = C.replace("W", "0").replace("R", "1").replace("B", "2")
+print("Yes" if (sum(int(a) for a in A) % 3 == int(C)) else "No")
